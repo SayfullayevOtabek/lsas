@@ -1,0 +1,262 @@
+.header__container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__menu {
+  display: flex;
+  gap: 33px;
+}
+
+.nav__link {
+  color: #83888f;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  color: #333d4b;
+}
+.banner__container {
+  position: relative;
+  background-image: url("../images/about-banner.jpg"); /* The image used */
+  height: 450px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.banner__content {
+  max-width: 493px;
+  position: absolute;
+  left: 86px;
+  top: 117px;
+}
+
+.banner__content h2 {
+  color: #fefcf7;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 72px; /* 100% */
+}
+
+.banner__content p {
+  margin-top: 32px;
+  opacity: 0.8;
+  color: #fefcf7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.banner__content button {
+  border: none;
+  outline: none;
+  margin-top: 56px;
+  padding: 15px 31px;
+  border-radius: 6px;
+  border-radius: 6px;
+  background: #66d2cf;
+  color: #fefcf7;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+}
+.second__section {
+  max-width: 1440px;
+  padding-top: 168px;
+  margin: 0 auto;
+}
+
+.second__container {
+  margin-top: 600px;
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  gap: 125px;
+}
+
+.second__side h2 {
+  margin-top: 600px;
+  padding-top: 90px;
+  font-family: 'Fraunces 9pt';
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  color: var(--text-color-black);
+}
+
+.second__side p {
+  padding-top: 32px;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 80%;
+  color: var(--text-color-black);
+}
+.first__side img{
+  margin-top: 600px;
+}
+.third__section {
+  position: relative;
+  max-width: 1440px;
+  padding-top: 256px;
+  margin: 0 auto;
+}
+
+.third__container {
+  width: 1280px;
+  height: 474px;
+  margin: 0 auto;
+  background-color: #2C343E;
+}
+
+.third__container h2 {
+  padding-top: 88px;
+  padding-left: 85px;
+  text-align: left;
+  font-family: 'Fraunces 9pt';
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  color:white;
+}
+
+.third__container p {
+  padding-top: 32px;
+  padding-left: 85px;
+  text-align: left;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: white;
+  opacity: 80%;
+}
+
+.third__container_banner {
+  position: absolute;
+  left: 790px;
+  top: 163px
+}
+.last__section {
+  padding-top: 165px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.last__container {
+  width: 1045px;
+  margin: 0 auto;
+}
+
+.last__container h2 {
+  font-family: 'Fraunces 9pt';
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.card__row {
+  display: flex;
+  gap: 95px;
+  padding-top: 72px;
+  padding-left: 165px;
+}
+
+.card {
+  width: 285px;
+  height: 262px;
+}
+
+.card h3 {
+  padding-top: 46px;
+  font-family: 'Fraunces 9pt';
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  color: var(--text-color-black);
+}
+
+.card h2 {
+  padding-top: 24px;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;  
+  color: var(--text-color-black);
+}
+
+.card p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;  
+  color: var(--text-color-black);
+}
+
+.card .asutralia {
+  padding-top: 53px;
+}
+footer {
+  display: flex;
+  gap: 368px;
+  margin: 0 auto;
+  width: 1280px;
+  height: 120px;
+  background-color: #2C343E;
+}
+.footer {
+  margin-top: 150px;
+}
+
+.footer__first_side {
+  display: flex;
+  gap: 103px;
+}
+
+.footer__logo {
+
+  padding-left: 85px;
+  padding-top: 47px;
+}
+
+.footer__title {
+  padding-top: 53.44px;
+  display: flex;
+  gap: 33px; 
+}  
+
+.footer__title a{
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.9230769276618958px;
+  color: #83888F;
+}
+
+.footer__title a:hover {
+  color: var(--text-color-white);
+}
+
+.footer__second_side {
+  padding-top: 47px;
+  display: flex;
+  gap: 24px;
+}
+
+.footer__second_side img {
+  cursor: pointer;
+}
+
+
+
+
